@@ -1,0 +1,28 @@
+{
+  "name": "delir-core",
+  "description": "",
+  "version": "0.0.0",
+  "author": "Ragg <ragg.devpr@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Ragg-/delir#readme",
+  "main": "built/index.js",
+  "typings": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings": "^1.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ragg-/delir-core.git"
+  },
+  "keywords": [
+    "delir",
+    "movie"
+  ],
+  "bugs": {
+    "url": "https://github.com/Ragg-/delir/issues"
+  }
+}
