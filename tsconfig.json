@@ -1,12 +1,11 @@
 {
+    "compileOnSave": true,
     "compilerOptions": {
-        "watch": true,
         "target": "es6",
         "outDir": "built/",
         "noImplicitAny": true,
         "noEmitOnError": true
     },
-    "compileOnSave": true,
     "filesGlob": [
         "typings/index.d.ts",
         "src/**/*.ts"
@@ -15,27 +14,6 @@
         "node_modules"
     ],
     "atom": {
-        "rewriteTsconfig": true
-    },
-    "files": [
-        "typings/index.d.ts",
-        "src/headers/IParametorDefinition.ts",
-        "src/headers/IPluginMeta.ts",
-        "src/headers/IRenderingTarget.ts",
-        "src/headers/RenderElements/IComposition.ts",
-        "src/headers/RenderElements/ICompositionFactory.ts",
-        "src/headers/RenderElements/ILayer.ts",
-        "src/headers/RenderElements/ILayerFactory.ts",
-        "src/headers/structures/CompositionSetting.ts",
-        "src/headers/structures/IFrameRenderInfo.ts",
-        "src/headers/structures/LayerDimention.ts",
-        "src/headers/structures/Point3D.ts",
-        "src/headers/structures/Rotate3D.ts",
-        "src/impl/CompositionBase.ts",
-        "src/impl/LayerBase.ts",
-        "src/index.ts",
-        "src/Renderer/0.0.0/render.ts",
-        "src/Renderer/LayerInstanceContainer.ts",
-        "src/Renderer/render.ts"
-    ]
+        "rewriteTsconfig": false
+    }
 }

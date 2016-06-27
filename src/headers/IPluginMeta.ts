@@ -1,5 +1,6 @@
 interface IPluginMeta {
-    // IDとバージョンはpackage.jsonから分かる
+    productId : String;
+    version : String;
     displayName : String;
-    apiVersion  : String;
+    usingApiVersion  : String;
 }

@@ -1,6 +1,16 @@
 # delir-core
 Core modules of [delir](https://github.com/Ragg-/delir)
 
+# Setup Development environment
+```
+npm run-script setup
+```
+
+Start watching source codes
+```
+npm start
+```
+
 ## TODO
 - Make draft for Composition Structure
     - Composition
