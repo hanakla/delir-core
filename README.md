@@ -1,4 +1,6 @@
 # delir-core
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Ragg-/delir-core.svg)](https://greenkeeper.io/)
 Core modules of [delir](https://github.com/Ragg-/delir)
 
 # Setup Development environment
